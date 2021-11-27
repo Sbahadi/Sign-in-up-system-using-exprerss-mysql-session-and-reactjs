@@ -6,7 +6,6 @@
 #loadingCircleCon {
   height: 100vh;
   width: 100%;
-  border: 1px solid red;
   display: -ms-grid;
   display: grid;
   place-items: center;

@@ -30,6 +30,7 @@ function App() {
           <Routes>
             <Route exact path="/" element={<Home />}></Route>
             <Route exact path="/settings" element={<Settings />}></Route>
+            <Route path="*" element={<Home />} />
           </Routes>
         </Router>
       );

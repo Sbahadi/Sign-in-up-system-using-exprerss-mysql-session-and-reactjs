@@ -84,7 +84,7 @@ const signOut = (req, res) => {
     req.session.destroy();
     return res
       .status(200)
-      .send({ signedOut: true, desc: "signed out successfully" });
+      .send({ signOut: true, desc: "signed out successfully" });
   } else {
     return res.status(200).send({ signOut: true, desc: "already loged out" });
   }
